@@ -6,10 +6,10 @@ import Error from "./Error";
 
 // const { BASE_URL, API_KEY } = process.env;
 
-const api = {
-  key: "f797d3132cba5feb83fbcde05e844cb6",
-  baseUrl: "https://api.openweathermap.org/data/2.5/"
-};
+// const api = {
+//   key: API_KEY,
+//   baseUrl: BASE_URL
+// };
 
 function App() {
 
