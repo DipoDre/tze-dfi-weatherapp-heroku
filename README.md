@@ -1,4 +1,4 @@
-Customized for hosting on Netlify. A "_redirects" file was added to the "public" folder.
+Customized for hosting on Heroku.
 
 # Getting Started with Create React App
 
