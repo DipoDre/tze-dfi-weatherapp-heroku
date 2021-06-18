@@ -4,9 +4,11 @@ import Search from './Search';
 import Error from "./Error";
 // import { api } from './config';
 
+const { BASE_URL, API_KEY } = process.env;
+
 const api = {
-  key: process.env.API_KEY,
-  baseUrl: process.env.BASE_URL
+  key: API_KEY,
+  baseUrl: BASE_URL
 };
 
 function App() {
