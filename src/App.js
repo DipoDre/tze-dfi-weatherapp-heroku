@@ -4,11 +4,11 @@ import Search from './Search';
 import Error from "./Error";
 // import { api } from './config';
 
-const { BASE_URL, API_KEY } = process.env;
+// const { BASE_URL, API_KEY } = process.env;
 
 const api = {
-  key: API_KEY,
-  baseUrl: BASE_URL
+  key: "f797d3132cba5feb83fbcde05e844cb6",
+  baseUrl: "https://api.openweathermap.org/data/2.5/"
 };
 
 function App() {
