@@ -2,7 +2,12 @@ import { useState, useEffect } from "react";
 import WeatherDetails from './WeatherDetails';
 import Search from './Search';
 import Error from "./Error";
-import { api } from './config';
+// import { api } from './config';
+
+const api = {
+  key: process.env.API_KEY,
+  baseUrl: process.env.BASE_URL
+};
 
 function App() {
 
